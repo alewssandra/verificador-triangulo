@@ -35,4 +35,16 @@ $ git clone https://github.com/alewssandra/verificador-triangulo
 $ cd verificador-triangulo
 ```
 
+Abra o arquivo index.html no seu navegador ou em um ambiente de desenvolvimento web.
+
+Interaja com a interface para inserir as medidas dos lados do triângulo.
+
+Observe a classificação do triângulo e a validação da construção conforme as regras definidas. Caso a construção seja inválida, uma mensagem indicando "Triângulo Inválido" será exibida.
+
 ou entrar em [Página do github](https://alewssandra.github.io/verificador-triangulo/)
+
+## Página
+
+![image](https://github.com/alewssandra/verificador-triangulo/assets/56393487/0ba0e49a-caab-4201-8120-963e8ad7fbc8)
+
+
