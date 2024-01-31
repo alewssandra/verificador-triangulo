@@ -12,16 +12,24 @@ function verificarTriangulo() {
 	resultadoElement.textContent = resultado
 }
 
+// Função para verificar e classificar o tipo de triângulo com base nos comprimentos dos lados.
 function verificarTrianguloTipo(lado1, lado2, lado3) {
+	// Verifica se os comprimentos fornecidos podem formar um triângulo.
 	if (lado1 + lado2 > lado3 && lado1 + lado3 > lado2 && lado2 + lado3 > lado1) {
+		// Verifica o tipo de triângulo com base nos comprimentos dos lados.
 		if (lado1 === lado2 && lado2 === lado3) {
-			return "Triângulo equilátero"
+			// Todos os lados iguais: Triângulo equilátero.
+			return "Triângulo equilátero";
 		} else if (lado1 === lado2 || lado1 === lado3 || lado2 === lado3) {
-			return "Triângulo isósceles"
+			// Pelo menos dois lados iguais: Triângulo isósceles.
+			return "Triângulo isósceles";
 		} else {
-			return "Triângulo escaleno"
+			// Todos os lados diferentes: Triângulo escaleno.
+			return "Triângulo escaleno";
 		}
 	} else {
-		return "Triângulo Inválido"
+		// Caso os comprimentos dos lados não formem um triângulo válido.
+		return "Triângulo Inválido";
 	}
 }
+
